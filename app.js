@@ -1,5 +1,5 @@
 let appInsights = require('applicationinsights');
-appInsights.setup("63969e7a-c5f7-4494-96f8-a33184d0fe30").start();
+appInsights.setup("YOUR_IKEY").start();
 
 var createError = require('http-errors');
 var express = require('express');
